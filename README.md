@@ -19,7 +19,7 @@ Bootstrap es un kit de herramientas de código abierto para desarrollar con HTML
 
 1. div.container
 2. div.row
-3. div.col (determina tamaño automatico según elementos)
+3. div.col (Determina tamaño automático según elementos)
 4. div.col-12 (Determina tamaño extra pequeño)
 
 ~~~
@@ -63,11 +63,16 @@ Bootstrap es un kit de herramientas de código abierto para desarrollar con HTML
 2. div.row align-items-center (alinear al centro toda la fila)
 3. div.row align-items-end    (alinear al final toda la fila)
 
-### Alineacion independiente
+### Alineación independiente
 
 1. div.col align-self-start   (Alinear columna al principio)
 2. div.col align-self-center  (Alinear columna al centro)
 3. div.col align-self-end     (Alinear columna al final)
+
+
+### Alineado Horizontal
+
+![Alineado Horizontal](asset/img/alineado_horizontal.png)
 
 
 
