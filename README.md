@@ -5,7 +5,7 @@
 Bootstrap es un kit de herramientas de código abierto para desarrollar con HTML, CSS y JS. Haga un prototipo rápido de sus ideas o cree su aplicación completa con nuestras variables y mixins de Sass, sistema de cuadrícula sensible, componentes precompilados extensos y potentes complementos basados ​​en jQuery.
 
 
-[Con titulo](http://expo.getbootstrap.com/ "Ir a Expo Bootstrap")
+[Ir a Expo Bootstrap](http://expo.getbootstrap.com/ "Ir a Expo Bootstrap")
 
 ## Primeros Pasos
 
