@@ -59,11 +59,15 @@ Bootstrap es un kit de herramientas de código abierto para desarrollar con HTML
 
 ### Alinear Filas
 
+![Alineado Vertical](asset/img/alineacion_vertical.png)
+
 1. div.row align-items-start  (alinear al principio toda la fila)
 2. div.row align-items-center (alinear al centro toda la fila)
 3. div.row align-items-end    (alinear al final toda la fila)
 
 ### Alineación independiente
+
+![Alineado Independiente](asset/img/alineacion_independiente.png)
 
 1. div.col align-self-start   (Alinear columna al principio)
 2. div.col align-self-center  (Alinear columna al centro)
@@ -73,6 +77,15 @@ Bootstrap es un kit de herramientas de código abierto para desarrollar con HTML
 ### Alineado Horizontal
 
 ![Alineado Horizontal](asset/img/alineado_horizontal.png)
+
+1. Solo funciona para div.row
+2. div.row justify-content-start   (Alinear Fila al princio)
+3. div.row justify-content-center  (Alinear Fila al centro)
+4. div.row justify-content-end     (Alinear Fila al final)
+5. div.row justify-content-around  (Alinear Fila al rededor)
+6. div.row justify-content-between (Alinear Fila entre espacios)
+
+
 
 
 
