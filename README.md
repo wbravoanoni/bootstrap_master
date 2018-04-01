@@ -25,9 +25,9 @@ Bootstrap es un kit de herramientas de código abierto para desarrollar con HTML
 ~~~
 	.col      Extra pequeño (Extra Small) - Smartphone Vertical  Menos de 544px
 	.col-sm   Pequeño (Small)  - Smartphones Verticales          Más de 544px y Menos de 768px
-	.col-md   Mediano (Medium) - Tablets						 Más de 768px y Menos de 992px
-	.col-lg   Largo (Large) - Computadoras						 Más de 992px y Menos de 1200px
-	.col-xl   Extra Largo (Extra Large) - Computadoras			 Más de 1200px
+	.col-md   Mediano (Medium) - Tablets			     Más de 768px y Menos de 992px
+	.col-lg   Largo (Large) - Computadoras			     Más de 992px y Menos de 1200px
+	.col-xl   Extra Largo (Extra Large) - Computadoras	     Más de 1200px
 ~~~
 
 5. div.col-auto (Utiliza solo el espacio que necesita si se combina con div.col)
