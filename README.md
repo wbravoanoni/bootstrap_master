@@ -86,6 +86,13 @@ Bootstrap es un kit de herramientas de código abierto para desarrollar con HTML
 6. div.row justify-content-between (Alinear Fila entre espacios)
 
 
+## Offseting
+
+1. div.offset-2
+2. div.offset-lg-4 (Centrar en dispositivo Largos, similar a justify-content-center)
+3. div.offset-lg-0 (Reinicia offset)
+
+
 
 
 
