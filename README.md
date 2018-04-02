@@ -126,16 +126,16 @@ como por ejemplo .hidden-xs-down
 
 ## Tipografia 2 tag
 
-<mark>   (Texto Destacado)
-<del>    (Texto Tachado)
-<s>	     (Texto Tachado)
-<ins>    (Texto Subrayado)
-<u>	     (Texto Subrayado)
-<strong> (Texto en negritas)
-<small>  (Texto mas pequeño)
-<em>     (Texto en italic)
+1. mark   (Texto Destacado)
+2. del    (Texto Tachado)
+3. s	  (Texto Tachado)
+4. ins    (Texto Subrayado)
+5. u	  (Texto Subrayado)
+6. strong (Texto en negritas)
+7. small  (Texto mas pequeño)
+8. em     (Texto en italic)
 
-p.text-justify			(Texto Justificado)
+p.text-justify	        (Texto Justificado)
 div.card>div.card-block (Crear cartas)
 
 ### Alinear Textos
