@@ -109,10 +109,10 @@ como por ejemplo .hidden-xs-down
 
 [Nuevos Hidden](https://getbootstrap.com/docs/4.0/utilities/display/ "Ir a Expo Bootstrap")
 
-div.col d-none d-sm-block (SM - Small)
-div.col d-none d-md-block (MD - Medium)
-div.col d-none d-lg-block (LG - Large)
-div.col d-none d-xl-block (XL - Extra Large)
+1. div.col d-none d-sm-block (SM - Small)
+2. div.col d-none d-md-block (MD - Medium)
+3. div.col d-none d-lg-block (LG - Large)
+4. div.col d-none d-xl-block (XL - Extra Large)
 
 
 
