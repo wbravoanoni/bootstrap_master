@@ -206,3 +206,14 @@ http://lorempixel.com/200/200
 8.  tr.bg-warning    (Color naranja oscuro)
 9.  tr.bg-danger     (Color rojo oscuro)
 10. tr.bg-info       (Color celeste oscuro)
+
+## Media Object
+
+![media_object](asset/img/media_object.png)
+
+
+- div.media
+- img.d-flex align-self-start mr-3
+- div.media-body
+- h4.mt-0
+- hr
