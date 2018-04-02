@@ -114,6 +114,13 @@ como por ejemplo .hidden-xs-down
 3. div.col d-none d-lg-block (LG - Large)
 4. div.col d-none d-xl-block (XL - Extra Large)
 
+## Tipografia
+
+1. small.text-muted (Textos mas suaves)
+2. p.h1             (Parrafo con estilo de h1)
+3. h1.display-1     (Encabezado con letras mas delgadas 1-4)
+4. p.lead           (Parrafo resaltado)
+
 
 
 
