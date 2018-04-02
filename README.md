@@ -153,3 +153,34 @@ div.card>div.card-block (Crear cartas)
 9. p.text-uppercase font-weight-normal (Mayusculas y normal)
 10. p.text-capitalize font-italic      (Letras capitales e italic)
 
+### Boques de codigo
+
+~~~
+<pre><code>&lt;h1&gt;Lorem ipsum dolor sit amet.&lt;/h1&gt;</code></pre>
+~~~
+
+la etiqueta kbd permite agregar atajos de teclas
+
+<p>Para copiar texto Presiona <kbd>Ctrl + C </kbd></p>
+
+### Imagenes
+
+
+#### lorempixel
+http://lorempixel.com/200/200
+
+
+1. img-fluid     (Imagen se adapta al contenedor)
+2. rounded       (Esquinas redondeadas)
+3. img-thumbnail (Imagenes con border blancos)
+4. float-left    (Imagen flotante a la izquierda)
+5. float-right   (Imagen flotante a la derecha)
+
+#### tag para imagenes
+
+1. figure.figure  			 (Crear cuadro de figura)
+2. img.img-fluid rounded 	 (Crear imagen responsiva)	
+3. figcaption.figure-caption  (Crear Mensaje en pie de img)
+4. p.text-center">Lorem ipsum (Centrar texto de pie de img)
+
+
