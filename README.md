@@ -153,7 +153,7 @@ div.card>div.card-block (Crear cartas)
 9. p.text-uppercase font-weight-normal (Mayusculas y normal)
 10. p.text-capitalize font-italic      (Letras capitales e italic)
 
-### Boques de codigo
+## Boques de codigo
 
 ~~~
 <pre><code>&lt;h1&gt;Lorem ipsum dolor sit amet.&lt;/h1&gt;</code></pre>
@@ -163,7 +163,7 @@ la etiqueta kbd permite agregar atajos de teclas
 
 <p>Para copiar texto Presiona <kbd>Ctrl + C </kbd></p>
 
-### Imagenes
+## Imagenes
 
 
 #### lorempixel
@@ -182,5 +182,32 @@ http://lorempixel.com/200/200
 2. img.img-fluid rounded 	 (Crear imagen responsiva)	
 3. figcaption.figure-caption  (Crear Mensaje en pie de img)
 4. p.text-center">Lorem ipsum (Centrar texto de pie de img)
+
+## Tablas
+
+1. table.table          (Modo tabla)
+2. table.table-striped  (Sombreado a elementos pares)
+3. table.table-bordered (Tabla con bordes)
+4. table.table-hover    (Tabla marcada cuando se pasa el mouse)
+5. table.dark 			(Similar a inverse)
+6. table.thead-dark     (Similar a inverse pero para encabezados)
+
+### Colores
+
+![tabla](asset/img/tablas.png)
+
+1.  tr.table-primary (Color azul claro)
+2.  tr.table-success (Color verde claro)
+3.  tr.table-warning (Color naranja claro)
+4.  tr.table-danger  (Color rojo claro)
+5.  tr.table-info    (Color celeste claro)
+6.  tr.bg-primary    (Color azul oscuro)
+7.  tr.bg-success    (Color verde oscuro)
+8.  tr.bg-warning    (Color naranja oscuro)
+9.  tr.bg-danger     (Color rojo oscuro)
+10. tr.bg-info       (Color celeste oscuro)
+
+
+
 
 
