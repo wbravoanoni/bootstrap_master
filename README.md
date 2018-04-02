@@ -92,6 +92,30 @@ Bootstrap es un kit de herramientas de código abierto para desarrollar con HTML
 2. div.offset-lg-4 (Centrar en dispositivo Largos, similar a justify-content-center)
 3. div.offset-lg-0 (Reinicia offset)
 
+## Reodenar columnas
+
+- Indicar que columnas van primero y cuales despues sin tocar el HTML
+
+1. div.row justify-content-between
+2. div.flex-first
+3. div.flex-last
+4. div.flex-unordered
+
+
+## Ocultar elementos
+
+Existen elementos que ya no son compatibles con V4 Alpha
+como por ejemplo .hidden-xs-down
+
+[Nuevos Hidden](https://getbootstrap.com/docs/4.0/utilities/display/ "Ir a Expo Bootstrap")
+
+div.col d-none d-sm-block (SM - Small)
+div.col d-none d-md-block (MD - Medium)
+div.col d-none d-lg-block (LG - Large)
+div.col d-none d-xl-block (XL - Extra Large)
+
+
+
 
 
 
