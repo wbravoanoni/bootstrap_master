@@ -206,8 +206,3 @@ http://lorempixel.com/200/200
 8.  tr.bg-warning    (Color naranja oscuro)
 9.  tr.bg-danger     (Color rojo oscuro)
 10. tr.bg-info       (Color celeste oscuro)
-
-
-
-
-
