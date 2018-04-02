@@ -116,14 +116,40 @@ como por ejemplo .hidden-xs-down
 
 ## Tipografia
 
+
+
 1. small.text-muted (Textos mas suaves)
 2. p.h1             (Parrafo con estilo de h1)
 3. h1.display-1     (Encabezado con letras mas delgadas 1-4)
 4. p.lead           (Parrafo resaltado)
 
 
+## Tipografia 2 tag
 
+<mark>   (Texto Destacado)
+<del>    (Texto Tachado)
+<s>	     (Texto Tachado)
+<ins>    (Texto Subrayado)
+<u>	     (Texto Subrayado)
+<strong> (Texto en negritas)
+<small>  (Texto mas pequeño)
+<em>     (Texto en italic)
 
+p.text-justify			(Texto Justificado)
+div.card>div.card-block (Crear cartas)
 
+### Alinear Textos
 
+1. p.text-left     (Texto alineado a la izquierda)
+2. p.text-center   (Texto centrado)
+3. p.text-right    (Texto alineado a la derecha)
+
+4. p.text-left text-sm-right (Texto sm alineado a la derecha)
+5. p.text-left text-md-right (Texto md alineado a la derecha)
+6. p.text-left text-lg-right (Texto lg alineado a la derecha)
+7. p.text-left text-xl-right (Texto xl alineado a la derecha)
+
+8. p.text-lowercase font-weight-bold   (Minusculas y negritas)
+9. p.text-uppercase font-weight-normal (Mayusculas y normal)
+10. p.text-capitalize font-italic      (Letras capitales e italic)
 
