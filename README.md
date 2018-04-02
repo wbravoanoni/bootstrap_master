@@ -107,7 +107,7 @@ Bootstrap es un kit de herramientas de código abierto para desarrollar con HTML
 Existen elementos que ya no son compatibles con V4 Alpha
 como por ejemplo .hidden-xs-down
 
-[Nuevos Hidden](https://getbootstrap.com/docs/4.0/utilities/display/ "Ir a Expo Bootstrap")
+[Nuevos Hidden](https://getbootstrap.com/docs/4.0/utilities/display/ "Nuevos Hidden")
 
 1. div.col d-none d-sm-block (SM - Small)
 2. div.col d-none d-md-block (MD - Medium)
