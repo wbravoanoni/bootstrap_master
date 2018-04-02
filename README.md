@@ -135,8 +135,8 @@ como por ejemplo .hidden-xs-down
 7. small  (Texto mas pequeño)
 8. em     (Texto en italic)
 
-p.text-justify	        (Texto Justificado)
-div.card>div.card-block (Crear cartas)
+- p.text-justify	    (Texto Justificado)
+- div.card>div.card-block   (Crear cartas)
 
 ### Alinear Textos
 
