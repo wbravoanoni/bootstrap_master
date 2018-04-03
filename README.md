@@ -238,3 +238,17 @@ http://lorempixel.com/200/200
 	</button>
 </div>
 ~~~
+
+## Insignias
+
+![insignias](asset/img/insignias.png)
+
+1. h1>span.badge badge-secondary
+2. h2>span.badge badge-danger
+3. h3>span.badge badge-warning
+4. h4>span.badge badge-info
+5. h5>span.badge badge-primary
+6. h6>span.badge badge-success
+7. h1>span.badge badge-pill badge-secondary  ("Forma redondeada")
+
+
