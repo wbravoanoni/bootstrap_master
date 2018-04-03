@@ -217,3 +217,22 @@ http://lorempixel.com/200/200
 - div.media-body
 - h4.mt-0
 - hr
+
+## Alertas
+
+![alertas](asset/img/alertas.png)
+
+1. div.alert alert-success mt-3
+2. div.alert alert-info mt-3
+3. div.alert alert-warning mt-3
+4. div.alert alert-danger mt-3
+5. a.alert-link   (Colores a los links)
+
+### Boton de cerrado
+
+~~~
+<div class="alert alert-info mt-5" id="alerta">
+	Lorem ipsum dolor sit amet.
+	<button type="button" class="close" data-dismiss="alert" aria-label="cerrar"><span aria-hidden="true">&times;</span></button>
+</div>
+~~~
