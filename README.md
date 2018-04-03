@@ -233,6 +233,8 @@ http://lorempixel.com/200/200
 ~~~
 <div class="alert alert-info mt-5" id="alerta">
 	Lorem ipsum dolor sit amet.
-	<button type="button" class="close" data-dismiss="alert" aria-label="cerrar"><span aria-hidden="true">&times;</span></button>
+	<button type="button" class="close" data-dismiss="alert" aria-label="cerrar">
+		<span aria-hidden="true">&times;</span>
+	</button>
 </div>
 ~~~
