@@ -267,4 +267,25 @@ http://lorempixel.com/200/200
 10. button.btn btn-sm btn-primary  (Small Button)
 11. button.btn btn-lg btn-block btn-primary (Block Button)
 
+![botones_p2](asset/img/botones_p2.png)
 
+~~~
+<h2>Checkbox</h2>
+<div class="btn-group" data-toggle="buttons">
+		<label class="btn btn-primary">
+			<input type="checkbox" name="" id=""> Checkbox 1
+		</label>
+</div>
+
+<h2>Radio</h2>
+<div class="btn-group" data-toggle="buttons">
+	<label class="btn btn-primary">
+	<input type="radio" name="sexo" id=""> Hombre
+</div>
+
+<div class="btn-group-toggle" data-toggle="buttons">
+	<label class="btn btn-secondary active">
+		<input type="checkbox" checked autocomplete="off"> Checked
+	</label>
+</div>
+~~~
