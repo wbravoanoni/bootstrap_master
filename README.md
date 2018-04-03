@@ -251,4 +251,20 @@ http://lorempixel.com/200/200
 6. h6>span.badge badge-success
 7. h1>span.badge badge-pill badge-secondary  ("Forma redondeada")
 
+## Botones
+
+![botones_p1](asset/img/botones_p1.png)
+
+1.  button.btn btn-primary
+2.  button.btn btn-secondary
+3.  button.btn btn-success
+4.  button.btn btn-info
+5.  button.btn btn-warning
+6.  button.btn btn-danger
+7.  button.btn btn-link
+8.  button.btn btn-outline-primary (Outline Button)
+9.  button.btn btn-lg btn-primary  (Large Button)
+10. button.btn btn-sm btn-primary  (Small Button)
+11. button.btn btn-lg btn-block btn-primary (Block Button)
+
 
