@@ -289,3 +289,21 @@ http://lorempixel.com/200/200
 	</label>
 </div>
 ~~~
+
+## Grupos de botones
+
+![grupo_botones](asset/img/grupo_botones.png)
+
+1. div.btn-toolbar (Agrupar grupos)
+2. div.btn-group   (Agrupar botones)
+
+~~~
+	<div class="btn-group mr-4">
+		<button class="btn btn-primary">1</button>
+		<button class="btn btn-primary">2</button>
+		<button class="btn btn-primary">3</button>
+		<button class="btn btn-primary">4</button>
+		<button class="btn btn-primary">5</button>
+	</div>
+~~
+
