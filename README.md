@@ -305,5 +305,29 @@ http://lorempixel.com/200/200
 		<button class="btn btn-primary">4</button>
 		<button class="btn btn-primary">5</button>
 	</div>
-~~
+~~~
+
+
+## Cards
+
+![cards](asset/img/card.png)
+
+![card_descripcion.png](asset/img/card_descripcion.png.png)
+
+1. div.card  	   (Iniciar card)
+2. div.card-header (Cabecera del card)
+3. div.card-body   (Cuerpo del card - similar a block)
+4. div.car-block   (Contenedor del contenido)
+5. h1.card-title   (Titulo del contenido)
+6. p.card-subtitle mb-2 text-muted (Subtitulo)
+7. p.card-text     (Texto de la carta)
+8. a.card-link     (Estilo especial para enlaces)
+9. div.card-footer (Pie de pagina)
+
+
+
+
+
+
+
 
