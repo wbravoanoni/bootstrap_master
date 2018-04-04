@@ -317,12 +317,25 @@ http://lorempixel.com/200/200
 1. div.card  	   (Iniciar card)
 2. div.card-header (Cabecera del card)
 3. div.card-body   (Cuerpo del card - similar a block)
-4. div.car-block   (Contenedor del contenido)
-5. h1.card-title   (Titulo del contenido)
-6. p.card-subtitle mb-2 text-muted (Subtitulo)
-7. p.card-text     (Texto de la carta)
-8. a.card-link     (Estilo especial para enlaces)
-9. div.card-footer (Pie de pagina)
+4. h1.card-title   (Titulo del contenido)
+5. p.card-subtitle mb-2 text-muted (Subtitulo)
+6. p.card-text     (Texto de la carta)
+7. a.card-link     (Estilo especial para enlaces)
+8. div.card-footer (Pie de pagina)
+
+### estilos especiales de card
+
+~~~
+<div class="card text-white bg-default mb-3">
+~~~
+
+### Card group
+
+![card_group](asset/img/card_group.png)
+
+- div.card-group (Permite juntar las card y dejarlas sin bordes)
+
+
 
 
 
