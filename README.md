@@ -312,7 +312,7 @@ http://lorempixel.com/200/200
 
 ![cards](asset/img/card.png)
 
-![card_descripcion.png](asset/img/card_descripcion.png.png)
+![card_descripcion.png](asset/img/card_descripcion_1.png)
 
 1. div.card  	   (Iniciar card)
 2. div.card-header (Cabecera del card)
