@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<!--atajo meta:vp -->
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="../asset/css/bootstrap.min.css">
+	<title>Plantila</title>
+
+<style>
+
+</style>
+</head>
+<body>
+	<div class="container">
+		<h1 class="text-center">collapse</h1>
+		<div class="row">
+			<div class="col-6">
+				<p>
+<a class="btn btn-primary" href="#bloque1" aria-expanded="false" aria-controls="bloque1" data-toggle="collapse">
+						Bloque 1
+					</a>
+
+<a class="btn btn-secondary" href="#bloque2" aria-expanded="false" aria-controls="bloque1" data-toggle="collapse">
+	Bloque 2
+</a>
+				</p>
+				<div class="collapse mb-3" id="bloque1">		
+					<div class="card">
+						<div class="card-body">
+							<div class="card-text">
+								<h3>Primary</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, eveniet.</p>
+							</div>
+						</div>
+					</div>
+			
+				</div>
+
+						<div class="collapse" id="bloque2">		
+					<div class="card">
+						<div class="card-body">
+							<div class="card-text">
+								<h3>Secondary</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, eveniet.</p>
+							</div>
+						</div>
+					</div>
+			
+				</div>
+				</div>
+		</div>	<!-- end row -->
+
+		<div class="row mt-3">
+			<div class="col">
+				<div id="acordion" role="tablist" arial-multiselectable="true">
+					<div class="card">
+						<div class="card-header" role="tab" id="heading1">
+							<h5 class="mb-0">
+								<a href="#collapse1" data-toggle="collapse" data-parent="acordion" aria-expanded="true" arial-controls="collapse1">Contenido1</a>
+							</h5>
+						</div>
+
+						<div id="collapse1" class="collapse show" role="tabpanel" aria-labelledby="heading1">
+							<div class="card-body">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint aliquid temporibus voluptatem, cupiditate magni aspernatur.
+							</div>
+						</div>
+					</div>
+
+					<div class="card">
+						<div class="card-header" role="tab" id="heading2">
+							<h5 class="mb-0">
+								<a href="#collapse2" data-toggle="collapse" data-parent="acordion" aria-expanded="true" arial-controls="collapse1">Contenido2</a>
+							</h5>
+						</div>
+
+						<div id="collapse2" class="collapse show" role="tabpanel" aria-labelledby="heading2">
+							<div class="card-body">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint aliquid temporibus voluptatem, cupiditate magni aspernatur.
+							</div>
+						</div>
+					</div>
+
+					<div class="card">
+						<div class="card-header" role="tab" id="heading3">
+							<h5 class="mb-0">
+								<a href="#collapse3" data-toggle="collapse" data-parent="acordion" aria-expanded="true" arial-controls="collapse1">Contenido3</a>
+							</h5>
+						</div>
+
+						<div id="collapse3" class="collapse show" role="tabpanel" aria-labelledby="heading3">
+							<div class="card-body">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint aliquid temporibus voluptatem, cupiditate magni aspernatur.
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+		<script src="../asset/js/jquery-3.3.1.min.js"></script>
+	<script src="../asset/js/bootstrap.min.js"></script>
+</body>
+</html>
