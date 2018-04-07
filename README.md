@@ -335,6 +335,62 @@ http://lorempixel.com/200/200
 
 - div.card-group (Permite juntar las card y dejarlas sin bordes)
 
+## Carousel
+
+~~~
+
+		<div class="container">
+		<div class="row">
+			<div class="col-12 mt-3">
+				<div class="carousel slide" id="principal-carousel" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="#principal-carousel" data-slid-to="0" class="active"></li>
+						<li data-target="#principal-carousel" data-slid-to="1"></li>
+						<li data-target="#principal-carousel" data-slid-to="2"></li>
+					</ol>
+
+				<div class="carousel-inner">
+					<div class="carousel-item active ">
+						<div class="carousel-caption d-block">
+							<h4>Lorem ipsum dolor sit amet</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, ducimus!</p>	
+						</div>
+						<img src="http://elvasomediolleno.guru/wp-content/uploads/2015/10/paisajes-2-fi.jpg" width="1200" height="600" alt="">
+					</div>
+					<div class="carousel-item">
+						<img src="https://www.viajejet.com/wp-content/viajes/Lago-Moraine-Parque-Nacional-Banff-Alberta-Canada-1440x810.jpg" width="1200" height="600" alt="">
+					</div>
+					<div class="carousel-item">
+						<img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res60/245000/245482-Chiapas.jpg" width="1200" height="600" alt="">
+					</div>		
+				</div><!-- end carousel-inner-->
+
+<!-- *** Start Controller ***-->
+
+				<a href="#principal-carousel" class="carousel-control-prev" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Anterior</span>
+				</a>
+				<a href="#principal-carousel" class="carousel-control-next" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Siguiente</span>
+				</a>
+<!--End Controller-->				
+
+				</div><!--- end carousel slide-->
+			</div><!-- end col-12 mt-3-->
+		</div> <!-- end row -->
+	</div> <!-- end container-->
+
+~~~
+
+- Agregar al final Jquery y bootstrap JS
+
+
+
+
+
+
 
 
 
