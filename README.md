@@ -376,7 +376,27 @@ http://lorempixel.com/200/200
 ~~~
 
 
+### ![check_radio](asset/img/check_radio.png)
 
+~~~
+<div class="row">
+	<div class="col">
+		<h4>Checkbox inline</h4>
+		<div class="form-check form-check-inline">
+			<label class="form-check-label" for="opcion11">
+				<input type="checkbox" name="" id="opcion11" value="opcion1">Opción 1
+			</label>	
+		</div>
+		<div class="form-check form-check-inline">
+			<label class="form-check-label" for="opcion12">
+				<input type="checkbox" name="" id="opcion12" value="opcion1">Opción 2
+			</label>	
+		</div>
+	</div>
+</div>
+~~~
+
+div.form-check-inline (Agrupa en linea los elemetos check y radio)
 
 
 
