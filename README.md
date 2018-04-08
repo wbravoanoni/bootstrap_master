@@ -356,6 +356,11 @@ http://lorempixel.com/200/200
 - div.form-group (Clase padre que agrupa los contenidos)
 - input.form-control (Agrupa inputs)
 
+### Texto de ayuda
+~~~
+<small class="form-text text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, incidunt.</small>
+~~~
+
 ### checkbox y radio (Se utilizan las ismas clases)
 
 ~~~
