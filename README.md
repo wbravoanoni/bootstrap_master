@@ -372,7 +372,7 @@ http://lorempixel.com/200/200
 ### Para formularios en linea
 
 ~~~
-	<form action="" class="form-inline">
+<form action="" class="form-inline">
 ~~~
 
 
