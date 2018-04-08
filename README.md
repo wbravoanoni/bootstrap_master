@@ -403,6 +403,12 @@ http://lorempixel.com/200/200
 
 div.form-check-inline (Agrupa en linea los elemetos check y radio)
 
+### bordes de colores
+
+- En versiones 4 alpha se podia cambiar el color del border con:
+
+div.form-group has-danger (Borde de color rojo)
+
 
 
 
