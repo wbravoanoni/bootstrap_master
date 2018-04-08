@@ -348,9 +348,32 @@ http://lorempixel.com/200/200
 
 ![dropdown](asset/img/dropdown.png)
 
+## Formularios
+
+![formularios](asset/img/formularios.png)
 
 
+- div.form-group (Clase padre que agrupa los contenidos)
+- input.form-control (Agrupa inputs)
 
+### checkbox y radio (Se utilizan las ismas clases)
+
+~~~
+<div class="form-group">
+	<div class="form-check">		
+		<label for="mujer" class="form-check-label" for="">
+			<input type="radio" name="sexo" id="mujer" class="form-check-input mr-2">Mujer
+		</label>
+	</div>
+</div>	
+~~~
+
+
+### Para formularios en linea
+
+~~~
+	<form action="" class="form-inline">
+~~~
 
 
 
