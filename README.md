@@ -409,8 +409,24 @@ div.form-check-inline (Agrupa en linea los elemetos check y radio)
 
 div.form-group has-danger (Borde de color rojo)
 
+## Jumbotron
+
+![jumbotron](asset/img/jumbotron.png)
+
+- div.jumbotron mt-3
+- h1.display-3 mb-3
+- p.lead
+
+## Grupo Listas
+
+![grupo_listas](asset/img/grupo_lista.png)
 
 
+- ul.list-group
+- li.list-group-item           (Elemento)
+- li.list-group-item disabled  (Item desactivado)
+- li.list-group-item active    (Item Activo)
+- li.list-group-item list-group-item-success (Elemento de color verde)
 
 
 
