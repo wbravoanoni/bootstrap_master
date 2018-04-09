@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<!--atajo meta:vp -->
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="../asset/css/bootstrap.min.css">
+	<title>Modal</title>
+
+<style>
+
+</style>
+</head>
+<body>
+
+	<h1 class="text-center mt-3">Modal</h1>
+<div class="container">
+
+	<div class="row">
+		<div class="col">
+			<button class="btn btn-primary" data-toggle="modal" data-target="#fm-modal">Abrir modal
+			</button>
+
+			<div class="modal fade" id="fm-modal" tabindex="-1" role="dialog" aria-labelleby="fm-modal" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="">Titulo de la ventana</h5>
+							<button class="close" data-dismiss="modal" aria-label="cerrar"><span aria-hidden="true">&times;</span></button>
+						</div>
+
+						<div class="modal-body">
+							<h2>Hola mundo</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia velit cum, repellendus expedita error ad necessitatibus ipsum obcaecati accusamus quos!</p>
+						</div>
+					</div>
+				</div>	
+			</div>
+
+		</div>
+
+				<div class="col">
+			<button class="btn btn-danger" data-toggle="modal" data-target="#fm-modal-grid">Abrir modal con grid
+			</button>
+
+			<div class="modal fade" id="fm-modal-grid" tabindex="-1" role="dialog" aria-labelleby="fm-modal" aria-hidden="true">
+				<div class="modal-dialog modal-lg">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="">Titulo de la ventana con grid</h5>
+							<button class="close" data-dismiss="modal" aria-label="cerrar"><span aria-hidden="true">&times;</span></button>
+						</div>
+
+						<div class="modal-body">
+							<div class="container-fluid">
+								<div class="row">
+									<div class="col-12 col-md-6">
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, eaque.</p>
+									</div>
+
+									<div class="col-12 col-md-6">
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, eaque.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="modal-footer">
+							<button class="btn btn-success">Aceptar</button>
+							<button data-dismiss="modal" class="btn btn-secondary">Cerrar</button>
+						</div>
+					</div>
+				</div>	
+			</div>
+
+		</div>
+	</div>	
+</div>
+		<script src="../asset/js/jquery-3.3.1.min.js"></script>
+	<script src="../asset/js/bootstrap.min.js"></script>
+</body>
+</html>

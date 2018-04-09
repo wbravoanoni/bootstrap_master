@@ -421,6 +421,7 @@ div.form-group has-danger (Borde de color rojo)
 
 ![grupo_listas](asset/img/grupo_lista.png)
 
+### Para Listas
 
 - ul.list-group
 - li.list-group-item           (Elemento)
@@ -428,9 +429,54 @@ div.form-group has-danger (Borde de color rojo)
 - li.list-group-item active    (Item Activo)
 - li.list-group-item list-group-item-success (Elemento de color verde)
 
+### Para Enlaces
 
+- div.list-group
+- a.list-group-item list-group-item-action
+- a.list-group-item list-group-item-action active
+- a.list-group-item list-group-item-success
 
+## Modal
 
+![Modal](asset/img/modal.png)
 
+### Botonones
 
+~~~
+<button class="btn btn-danger" data-toggle="modal"
+	data-target="#fm-modal-grid">Abrir modal con grid
+</button>
+~~~
+
+### Estructura
+
+~~~
+<div class="modal fade" id="fm-modal-grid" tabindex="-1" role="dialog" aria-labelleby="fm-modal" aria-hidden="true">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="">Titulo de la ventana con grid</h5>
+				<button class="close" data-dismiss="modal" aria-label="cerrar"><span aria-hidden="true">&times;</span></button>
+			</div>
+			<div class="modal-body">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-12 col-md-6">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, eaque.</p>
+						</div>
+
+						<div class="col-12 col-md-6">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, eaque.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="modal-footer">
+				<button class="btn btn-success">Aceptar</button>
+				<button data-dismiss="modal" class="btn btn-secondary">Cerrar</button>
+			</div>
+		</div>
+	</div>	
+</div>
+~~~
 
