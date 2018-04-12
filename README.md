@@ -554,15 +554,16 @@ ul.nav nav-tabs
 
 - Elementos links:
 ~~~
-			<li class="nav-item">
-				<a href="#tab1" class="nav-link active" data-toggle="tab">Tab 1</a>
-			</li>
+	<li class="nav-item">
+		<a href="#tab1" class="nav-link active" data-toggle="tab">Tab 1</a>
+	</li>
 ~~~
 
--Contenido
+- Contenido
 
-		<div class="tab-content">
-				<div class="tab-pane active" id="tab1" role="tabpanel">
-					<h3>Panel 1</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ducimus iste sint rerum voluptatibus, inventore commodi, amet autem ipsum. Reprehenderit est, quo ad molestiae adipisci dolores ullam minus eius aperiam.</p>
-				</div>
+<div class="tab-content">
+	<div class="tab-pane active" id="tab1" role="tabpanel">
+		<h3>Panel 1</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ducimus iste sint rerum voluptatibus, inventore 			commodi, amet autem ipsum. Reprehenderit est, quo ad molestiae adipisci dolores ullam minus eius aperiam.</p>
+	</div>
+</div>	
