@@ -440,7 +440,7 @@ div.form-group has-danger (Borde de color rojo)
 
 ![Modal](asset/img/modal.png)
 
-### Botonones
+### Boton
 
 ~~~
 <button class="btn btn-danger" data-toggle="modal"
@@ -519,7 +519,50 @@ color:rgba(255,255,255,.5);
 </style>
 ~~~
 
+## Paneles
 
+![Paneles](asset/img/paneles.png)
 
+- ul.nav nav-tabs
+- li>a.nav-link active
+- li>a.nav-link disabled
 
+- ul.nav nav-pills (Forma de pildora)
+- ul.nav nav-pills nav-fill (Ocupa el 100%)
 
+### Dropdown
+
+~~~
+<div class="col-lg-12">
+	<h1 class="text-center">Tabs</h1>
+	<ul class="nav nav-pills nav-fill">
+<li class="nav-item">
+	<a href="" class="nav-link active dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Inicio</a>
+		<div class="dropdown-menu">
+			<a href="#" class="dropdown-item">Categoria 1</a>
+			<a href="#" class="dropdown-item">Categoria 2</a>
+			<a href="#" class="dropdown-item">Categoria 3</a>
+		</div>
+</li>
+<li class="nav-item"><a href="" class="nav-link disabled">Blog</a></li>
+</div>
+~~~
+
+### tabs
+
+ul.nav nav-tabs
+
+- Elementos links:
+~~~
+			<li class="nav-item">
+				<a href="#tab1" class="nav-link active" data-toggle="tab">Tab 1</a>
+			</li>
+~~~
+
+-Contenido
+
+		<div class="tab-content">
+				<div class="tab-pane active" id="tab1" role="tabpanel">
+					<h3>Panel 1</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ducimus iste sint rerum voluptatibus, inventore commodi, amet autem ipsum. Reprehenderit est, quo ad molestiae adipisci dolores ullam minus eius aperiam.</p>
+				</div>
