@@ -480,3 +480,46 @@ div.form-group has-danger (Borde de color rojo)
 </div>
 ~~~
 
+### Navs
+
+![navs](asset/img/navs.png)
+
+### nav simple
+
+- ul.nav
+- li.nav-item>a.nav-link
+- li.nav-item>a.nav-link disabled
+
+### Con tag nav
+
+- nav.nav
+- a.nav-link
+
+### etiquetas adicionales
+
+- nav.nav justify-content-center (Centrado)
+- nav.nav flex-column bg-dark    (Modo vertical)
+
+### Sujerencia de estilos
+
+~~~
+<style>
+.fm-nav a{
+	color:#fff;
+	padding: 15px;
+}
+
+.fm-nav .disabled{
+color:rgba(255,255,255,.5);
+}
+
+.fm-nav a:hover{
+	background: rgba(255,255,255,.1);
+}
+</style>
+~~~
+
+
+
+
+
