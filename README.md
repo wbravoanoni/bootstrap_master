@@ -634,4 +634,7 @@ ul.nav nav-tabs
 
 ![popover](asset/img/scrollspy.png)
 
+## tooltips
+
+![tooltips](asset/img/tootips.png)
 
