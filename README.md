@@ -612,3 +612,21 @@ ul.nav nav-tabs
 - data-placement="left"
 - data-placement="bottom"
 
+## Barras de progreso
+
+![popover](asset/img/progress_bar.png)
+
+~~~
+<div class="progress mb-3" style="height: 26px">		
+
+<div class="progress-bar" role="progressbar" style="width:80%;height: 25px; line-height:25px;">80%</div>
+~~~
+
+### Colores
+
+- div.progress-bar bg-danger
+- div.progress-bar bg-warning
+- div.progress-bar bg-success
+- div.progress-bar bg-info progress-bar-striped
+- div.progress-bar bg-info progress-bar-striped progress-bar-animated
+
