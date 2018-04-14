@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<!--atajo meta:vp -->
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="../asset/css/bootstrap.min.css">
+	<title>Scrollspy</title>
+
+<style>
+
+body{
+	position: relative;
+	padding-top: 54px;
+}
+
+.fm-nav a{
+	color:#fff;
+	padding: 15px;
+}
+.fm-nav .active , .fm-nav a:hover {
+	background: rgba(10,0,0,.5);
+	}
+
+
+.seccion{
+	margin-bottom: 1000px;
+}
+
+.seccion .columna{
+	padding-top: 100px;
+}
+
+</style>
+</head>
+<body data-spy="scroll" data-target="#fm-nav">
+	<div class="container">
+		<!--<h3 class="text-center mt-3">Scrollspy</h3>-->
+		<div class="row">
+			<div class="col">
+
+				<div id="fm-nav">
+					<ul class="fm-nav nav fixed-top navbar-inverse bg-primary">
+						<li class="nav-item">
+							<a href="#seccion1" class="nav-link">Seccion Nº1</a>
+						</li>
+						<li class="nav-item">
+							<a href="#seccion2" class="nav-link">Seccion Nº2</a>
+						</li>
+						<li class="nav-item">
+							<a href="#seccion3" class="nav-link">Seccion Nº3</a>
+						</li>
+					</ul>
+				</div>
+
+				
+			</div>
+		</div>	
+
+		<div class="row seccion" id="seccion1">
+			<div class="col-12 columna">
+				<h2>Sección 1</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis itaque distinctio pariatur reiciendis, ipsum inventore voluptatem neque suscipit molestiae debitis ut repellendus provident assumenda eos vero sint, sit impedit reprehenderit.</p>
+			</div>
+		</div>
+		<div class="row seccion" id="seccion2">
+			<div class="col-12 columna">
+				<h2>Sección 2</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis itaque distinctio pariatur reiciendis, ipsum inventore voluptatem neque suscipit molestiae debitis ut repellendus provident assumenda eos vero sint, sit impedit reprehenderit.</p>
+			</div>	
+		</div>
+		<div class="row seccion" id="seccion3">
+			<div class="col-12 columna">
+					<h2>Sección 3</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis itaque distinctio pariatur reiciendis, ipsum inventore voluptatem neque suscipit molestiae debitis ut repellendus provident assumenda eos vero sint, sit impedit reprehenderit.</p>
+			</div>			
+		</div>
+	</div>
+		<script src="../asset/js/jquery-3.3.1.min.js"></script>
+	<script src="../asset/js/bootstrap.min.js"></script>
+</body>
+</html>
