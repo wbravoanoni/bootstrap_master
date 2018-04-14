@@ -568,6 +568,30 @@ ul.nav nav-tabs
 	</div>
 </div>	
 
-### navbar
+## navbar
 
-![navbar](asset/img/navs.png)
+![navbar](asset/img/navbar.png)
+
+## Paginación
+
+![paginación](asset/img/navbar.png)
+
+- nav>ul.pagination
+~~~
+<li class="page-item disabled">
+	<a href=""><span class="page-link" aria-hidden="true">&laquo; Anterior</span>
+	</a>
+</li>
+~~~
+
+- li.page-ite>a.page-link{1}
+
+~~~
+<li class="page-item">
+	<a class="page-link" href="">
+		<span aria-hidden="true">Siguiente &raquo;</span>
+	</a>
+</li>
+~~~
+
+- ul.d-flex justify-content-start
