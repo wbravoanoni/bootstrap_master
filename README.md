@@ -567,3 +567,7 @@ ul.nav nav-tabs
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ducimus iste sint rerum voluptatibus, inventore 			commodi, amet autem ipsum. Reprehenderit est, quo ad molestiae adipisci dolores ullam minus eius aperiam.</p>
 	</div>
 </div>	
+
+### navbar
+
+![navbar](asset/img/navs.png)

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<!--atajo meta:vp -->
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<!--<link rel="stylesheet" href="../asset/css/bootstrap.min.css">-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<title>Navbar</title>
+
+
+</head>
+<body>
+
+<h1 class="text-center">Barra de navegacion</h1>
+<!--fixed-bottom-> barra al piso-->
+<nav class="navbar navbar-toggleable-md navbar-inverse bg-faded fixed-top" style="background: #000;">
+
+	<div class="container">
+			<!--Inicio menu hamburgesa-->
+		<button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#fm-menu" aria-controls="fm-menu" aria-expanded="false" aria-label="Menu">
+		<span class="navbar-toggler-icon"></span>	
+		</button>
+
+		<a href="" class="navbar-brand">Navbar</a>
+
+		<!--Fin menu hamburgesa-->
+
+		<div class="collapse navbar-collapse" id="fm-menu">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item">
+					<a href="#" class="nav-link active">Inicio</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link dropdown-toggle" id="menu-categoria" data-toggle="dropdown">Blog</a>
+					<div class="dropdown-menu" arialabelledby="menu-categoria">
+						<a href="#" class="dropdown-item">Categoria #1</a>
+						<a href="#" class="dropdown-item">Categoria #2</a>
+						<a href="#" class="dropdown-item">Categoria #3</a>				
+					</div>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link">Proximamente</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link">Contacto</a>
+				</li>
+			</ul>
+
+			<form action="" class="form-inline">
+				<input type="text" class="form-control mr-2" paceholder="buscar">
+				<button type="submit" class="btn btn-primary">Buscar</button>
+			</form>
+		</div>
+	</div>
+</nav>
+
+<div class="container">
+	<div class="row mt-3">
+		<div class="jumbotron">
+			<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, repellendus.</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio vel aperiam ipsam sed dolores accusantium, maxime possimus expedita tempora praesentium sunt distinctio commodi, unde illum eligendi incidunt nulla fugit ex.</p>
+		</div>
+	</div>
+
+	<div class="row" style="margin-top:1000px">
+		<div class="col">
+			<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia esse enim iure libero eveniet est quasi, cupiditate mollitia accusamus vel debitis doloribus placeat doloremque blanditiis ratione, architecto a dolorem sint!</span>
+			<span>Molestias, quisquam consectetur ex necessitatibus asperiores magnam ratione porro neque cupiditate, animi aut officiis alias fugiat. Ut iure earum perferendis obcaecati quae esse velit est illo, deserunt, amet explicabo voluptatum?</span>
+			<span>Quasi fuga doloremque rerum possimus adipisci dolorum eum natus, laudantium reprehenderit dolores id tempora, et repellendus similique iure saepe nobis accusantium sunt eaque consequatur culpa ex magnam nisi error totam!</span></p>
+		</div>
+	</div>
+</div>
+
+
+<style>
+
+@media screen and (max-width:576px){
+
+body{
+	padding-top: 56px;
+}
+	.container{
+		width: 100%;
+	}
+}
+
+</style>
+
+	<script src="../asset/js/jquery-3.3.1.min.js"></script>
+	<script src="../asset/js/bootstrap.min.js"></script>
+</body>
+</html>
