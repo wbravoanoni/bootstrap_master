@@ -574,7 +574,7 @@ ul.nav nav-tabs
 
 ## Paginación
 
-![paginación](asset/img/navbar.png)
+![paginación](asset/img/paginacion.png)
 
 - nav>ul.pagination
 ~~~
@@ -593,5 +593,22 @@ ul.nav nav-tabs
 	</a>
 </li>
 ~~~
-
+ 
 - ul.d-flex justify-content-start
+
+## popover
+
+![popover](asset/img/popover.png)
+
+~~~
+<button type="button" class="btn btn-lg btn-danger" data-toggle="popover" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover
+</button>	
+~~~
+
+### Cambiar posicion
+
+- data-placement="top"
+- data-placement="right"
+- data-placement="left"
+- data-placement="bottom"
+

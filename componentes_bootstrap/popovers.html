@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<!--atajo meta:vp -->
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="../asset/css/bootstrap.min.css">
+	<title>Popovers</title>
+
+<style>
+
+</style>
+</head>
+<body>
+	<div class="container">
+		<h3 class="text-center mt-3">Popovers</h3>
+		<hr>
+		<div class="row">
+			<div class="col">
+			<button type="button" class="btn btn-lg btn-danger" data-toggle="popover" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover
+		</button>	
+
+		<button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="top" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+  Popover on top
+</button>
+
+<button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="right" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+  Popover on right
+</button>
+
+<button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Vivamus
+sagittis lacus vel augue laoreet rutrum faucibus.">
+  Popover on bottom
+</button>
+
+<button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="left" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+  Popover on left
+</button>		
+			</div>
+		</div>
+
+
+	</div>
+
+
+		<script src="../asset/js/jquery-3.3.1.min.js"></script>
+		<script src="../asset/js/popper.js"></script>
+		<script src="../asset/js/bootstrap.min.js"></script>
+	
+	<script>
+			$(function () {
+		  $('[data-toggle="popover"]').popover()
+		})
+	</script>
+
+</body>
+</html>
