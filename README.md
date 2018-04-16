@@ -681,3 +681,65 @@ ul.nav nav-tabs
 - .justify-content-sm-between
 - .justify-content-sm-around
 
+### Alinear de forma vertical
+
+![flexbox_4](asset/img/flexbox_4.png)
+
+- .align-items-start
+- .align-items-end
+- .align-items-center
+- .align-items-baseline
+- .align-items-strech
+
+- .align-items-sm-tart
+- .align-items-md-end
+- .align-items-lg-center
+- .align-items-xl-baseline
+- .align-items-xl-strech
+
+### Alinenar cajas independientes
+
+![flexbox_5](asset/img/flexbox_5.png)
+
+- .align-self-start
+- .align-self-center
+- .align-self-end
+- .align-self-baseline
+- .align-self-strech
+
+
+### auto margin
+
+![flexbox_6](asset/img/flexbox_6.png)
+
+~~~
+<div class="row my-4">
+	<div class="col">
+		<h4>Auto Margins</h4>
+		<hr>
+		<div class="contenedor d-flex justify-content-end">
+			<div class="mr-auto">.mr-auto</div>
+			<div>caja2</div>
+			<div>caja3</div>
+		</div>	
+
+		<div class="contenedor d-flex justify-content-start">
+			<div>caja2</div>
+			<div>caja3</div>
+			<div class="ml-auto">.ml-auto</div>
+		</div>	
+
+		<div class="contenedor d-flex flex-column align-items-start" style="height: 250px">
+			<div class="mb-auto">.mb-auto</div>
+			<div>caja2</div>
+			<div>caja3</div>
+		</div>
+
+		<div class="contenedor d-flex flex-column align-items-end" style="height: 250px">
+			<div>caja2</div>
+			<div>caja3</div>
+			<div class="mt-auto">.mb-auto</div>
+		</div>	
+	</div>
+</div>
+~~~
