@@ -638,3 +638,46 @@ ul.nav nav-tabs
 
 ![tooltips](asset/img/tootips.png)
 
+## Flexbox
+
+![flexbox_1](asset/img/flexbox_1.png)
+
+- .d-flex
+- .inline-flex
+
+- .d.sm-flex
+- .d-sm-inline-flex
+- .d-md-flex
+- .d-md-inline-flex
+- .d-lg-flex
+- .d-lg-inline-flex
+- .d-xl-flex
+- .d-xl-inline-flex
+
+![flexbox_2](asset/img/flexbox_2.png)
+
+### Variantes
+
+- .flex-row
+- .flex-row-reverse
+- .flex-column
+- .flex-column-reverse
+
+- .flex-sm-row
+- .flex-sm-row-reverse
+- .flex-sm-column
+- .flex-sm-column-reverse
+
+- md - lg - xl
+
+![flexbox_3](asset/img/flexbox_3.png)
+
+### Justify content
+
+- .justify-content-start
+- .justify-content-sm-start
+- .justify-content-sm-center
+- .justify-content-sm-end
+- .justify-content-sm-between
+- .justify-content-sm-around
+
