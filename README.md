@@ -791,3 +791,40 @@ ul.nav nav-tabs
 <div class="contenedor d-flex align-content-stretch flex-wrap" style="height: 200px">
 ~~~
 
+## Border
+
+~~~
+
+<style>
+	.caja{
+		border: 1px solid black;
+		width:100px;
+		height: 100px;
+		display: inline-block;
+		margin:20px;
+	}
+</style>
+
+~~~
+
+![border_1](asset/img/border_1.png)
+
+
+div.caja.bg-faded
+div.caja.bg-faded.border-0
+div.caja.bg-faded.border-top-0
+div.caja.bg-faded.border-bottom-0
+div.caja.bg-faded.border-left-0
+div.caja.bg-faded.border-right-0
+
+### Esquinas redondeadas
+
+![border_2](asset/img/border_2.png)
+
+div.caja.bg-primary.border-0.rounded
+div.caja.bg-primary.border-0.rounded-top
+div.caja.bg-primary.border-0.rounded-right
+div.caja.bg-primary.border-0.rounded-left
+div.caja.bg-primary.border-0.rounded-bottom
+div.caja.bg-primary.border-0.rounded-circle
+div.caja.bg-primary.border-0.rounded-0
