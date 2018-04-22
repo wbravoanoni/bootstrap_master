@@ -743,3 +743,51 @@ ul.nav nav-tabs
 	</div>
 </div>
 ~~~
+
+
+### Flexbox - Wrap
+
+![wrap_1](asset/img/wrap_1.png)
+
+~~~
+<div class="contenedor d-flex flex-nowrap">
+
+<div class="contenedor d-flex flex-wrap">
+
+<div class="contenedor d-flex flex-wrap-reverse">
+~~~
+
+![wrap_2](asset/img/wrap_2.png)
+
+~~~
+	<div class="row my-3">
+		<div class="col">
+			<h4>order</h4>
+			<hr>
+			<div class="contenedor d-flex flex-nowrap">
+				<div class="flex-last">caja 1</div>
+				<div class="">caja 2</div>
+				<div class="flex-first">caja 3</div>
+~~~
+
+![wrap_3](asset/img/wrap_3.png)
+
+~~~
+<div class="contenedor d-flex align-content-start flex-wrap" style="height: 200px">
+<div class="contenedor d-flex align-content-center flex-wrap" style="height: 200px">
+~~~
+
+![wrap_4](asset/img/wrap_4.png)
+
+~~~
+<div class="contenedor d-flex align-content-end flex-wrap" style="height: 200px">
+<div class="contenedor d-flex align-content-between flex-wrap" style="height: 200px">
+<div class="contenedor d-flex align-content-around flex-wrap" style="height: 200px">
+~~~
+
+![wrap_5](asset/img/wrap_5.png)
+
+~~~
+<div class="contenedor d-flex align-content-stretch flex-wrap" style="height: 200px">
+~~~
+
