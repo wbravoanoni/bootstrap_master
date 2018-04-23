@@ -893,3 +893,18 @@ Trasformar un elemento de bloque a linea (div)
 - p.text-white p-2 bg-danger
 - p.text-white p-2 bg-inverse
 - p.bg-fade
+
+## Position
+
+![embed](asset/img/embed.png)
+
+~~~
+<div class="embed-responsive embed-responsive-16by9">
+	<iframe width="640" height="360" src="https://www.youtube.com/embed/dWoIljGEOQ4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+~~~
+
+- 21:9 .embed-responsive-21by9
+- 16:9 .embed-responsive-16by9
+- 4:3  .embed-responsive-4by3
+- 1:1  .embed-responsive-1by1
