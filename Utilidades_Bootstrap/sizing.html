@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<!--atajo meta:vp -->
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<title>Sizing y spacing</title>
+</head>
+<body>
+
+<div class="container">
+	<h1 class="text-center text-info">Sizing y spacing</h1>
+	<div class="row">
+
+	<!--Espaciado
+
+	p - Padding
+	m - Margin
+
+	t - Top
+	b - Bottom
+	l - Left
+	r - Right
+
+	y - Eje y (Arriba y abajo)
+	x - Eje x (Izquierda derecha)
+	-->
+
+	<!--
+	.w-25  - Ancho del 25%
+	.w-50  - Ancho del 50%
+	.w-75  - Ancho del 75%
+	.w-100 - Ancho del 100%
+    -->
+
+
+		<div class="col-6">
+			<div class="bg-success text-white w-25 p-2">25%</div>
+			<div class="bg-success text-white w-50 p-2">50%</div>
+			<div class="bg-success text-white w-75 p-2">75%</div>
+			<div class="bg-success text-white w-100 p-2">100%</div>
+		</div>
+
+		<div class="col-6">
+			<div class="bg-success text-white mx-2 p-2 d-inline-block h-25">25%</div>
+			<div class="bg-success text-white mx-2 p-2 d-inline-block h-50">50%</div>
+			<div class="bg-success text-white mx-2 p-2 d-inline-block h-75">75%</div>
+			<div class="bg-success text-white mx-2 p-2 d-inline-block h-100">100%</div>
+		</div>
+	</div>
+</div>
+
+
+
+	<script src="asset/js/jquery-3.3.1.min.js"></script>
+	<script src="asset/js/bootstrap.min.js"></script>
+</body>
+</html>

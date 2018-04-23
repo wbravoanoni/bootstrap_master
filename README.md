@@ -908,3 +908,43 @@ Trasformar un elemento de bloque a linea (div)
 - 16:9 .embed-responsive-16by9
 - 4:3  .embed-responsive-4by3
 - 1:1  .embed-responsive-1by1
+
+## Sizing y Spacing
+
+![Sizing](asset/img/Sizing.png)
+
+
+- Espaciado
+
+1. p - Padding
+2. m - Margin
+3. t - Top
+4. b - Bottom
+5. l - Left
+6. r - Right
+7. y - Eje y (Arriba y abajo)
+8. x - Eje x (Izquierda derecha)
+
+- Spacing
+
+1. .w-25  - Ancho del 25%
+2. .w-50  - Ancho del 50%
+3. .w-75  - Ancho del 75%
+4. .w-100 - Ancho del 100%
+
+~~~
+<div class="col-6">
+	<div class="bg-success text-white w-25 p-2">25%</div>
+	<div class="bg-success text-white w-50 p-2">50%</div>
+	<div class="bg-success text-white w-75 p-2">75%</div>
+	<div class="bg-success text-white w-100 p-2">100%</div>
+</div>
+
+<div class="col-6">
+	<div class="bg-success text-white mx-2 p-2 d-inline-block h-25">25%</div>
+	<div class="bg-success text-white mx-2 p-2 d-inline-block h-50">50%</div>
+	<div class="bg-success text-white mx-2 p-2 d-inline-block h-75">75%</div>
+	<div class="bg-success text-white mx-2 p-2 d-inline-block h-100">100%</div>
+</div>
+~~~
+
