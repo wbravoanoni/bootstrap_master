@@ -868,3 +868,28 @@ Trasformar un elemento de bloque a linea (div)
 	</div>
 </div>
 ~~~
+
+
+## Colores
+
+![Colores](asset/img/Colores.png)
+
+### Textos
+
+- p.text-muted
+- p.text-primary
+- p.text-success
+- p.text-danger
+- p.text-warning
+- p.text-info
+- p.text-white
+
+### Cajas
+
+- p.text-white p-2 bg-primary
+- p.text-white p-2 bg-success
+- p.text-white p-2 bg-info
+- p.text-white p-2 bg-warning
+- p.text-white p-2 bg-danger
+- p.text-white p-2 bg-inverse
+- p.bg-fade
