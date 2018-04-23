@@ -828,3 +828,43 @@ div.caja.bg-primary.border-0.rounded-left
 div.caja.bg-primary.border-0.rounded-bottom
 div.caja.bg-primary.border-0.rounded-circle
 div.caja.bg-primary.border-0.rounded-0
+
+### Clearfix - y display
+
+![display](asset/img/display.png)
+
+~~~
+<style>
+	.caja{
+		height: 100px;
+		width: 100px;
+		background: black;
+
+}
+</style>
+~~~
+
+- Solo a los inline block se le puede agregar paddin y margin
+
+Trasformar un elemento de linea a bloque (un span)
+
+~~~
+<span class="bg-success text-white d-block p-2 mb-4">Elemento de tipo linea</span>
+~~~
+
+Trasformar un elemento de bloque a linea (div)
+
+~~~
+<div class="bg-primary d-inline-block text-white p-2 mb-4">Elemento de tipo bloque </div>
+~~~
+
+### Clearfix (Limpia elementos flotantes)
+
+~~~
+<div class="col">
+		<div class="bg-primary clearfix">
+		<div class="caja d-inline-block float-left"></div>	
+		<div class="caja d-inline-block float-right"></div>			
+	</div>
+</div>
+~~~
