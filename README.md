@@ -925,7 +925,7 @@ Trasformar un elemento de bloque a linea (div)
 7. y - Eje y (Arriba y abajo)
 8. x - Eje x (Izquierda derecha)
 
-- Spacing
+- Tamaño
 
 1. .w-25  - Ancho del 25%
 2. .w-50  - Ancho del 50%
