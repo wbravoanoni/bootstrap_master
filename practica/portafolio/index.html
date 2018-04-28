@@ -4,19 +4,91 @@
 	<meta charset="UTF-8">
 	 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<title>Portafolio de Winston Bravo</title>
-	<link rel="stylesheet" href="asset/bootstrap-4.1.0/css/bootstrap.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="./asset/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
 	<link rel="stylesheet" href="asset/css/fontello.css">
-	<link rel="stylesheet" href="asset//css/style.css">
+	<link rel="stylesheet" href="asset/css/style.css">
 </head>
 <body>
 
-	<header></header>
+	<header>
+		<div class="container">
+			<!-- Barra logo + Menu-->
+			<div class="row nav rounded-top align-item-stretch justify-content-between">
+				<!--Logotipo-->
+				<div class="col-md-12 col-lg logo d-flex align-items-center justify-content-center justify-content-lg-start">
+					<h2>Winston Bravo</h2>
+					<span class="icon icon-dot"></span>
+					<p>Desarrollador Web</p>
+				</div>
+
+				<nav class="col-md-12 col-lg-auto menu d-flex align-items-stretch flex-wrap flex-sm-nowrap">
+					<a href="#" class="c-1 d-flex align-items-center">
+						<div class="d-flex flex-column text-center">
+							<span>Portafolio</span>
+							<i class="icono icon-briefcase"></i>
+						</div>
+					</a>
+
+					<a href="#" class="c-2 d-flex align-items-center">
+						<div class="d-flex flex-column text-center">
+							<span>Acerca de</span>
+							<i class="icono icon-user"></i>
+						</div>
+					</a>
+
+					<a href="#" class="c-3 d-flex align-items-center">
+						<div class="d-flex flex-column text-center">
+							<span>Contacto</span>
+							<i class="icono icon-mail"></i>
+						</div>
+					</a>
+					
+				</nav>
+			</div>
+			<div class="row slider">
+				<div class="col">
+					<div class="carousel slide" id="slider" data-rider="carousel">
+						<ol class="carousel-indicators">
+							<li data-target="#slider" data-slide-to="0" class="active"></li>
+							<li data-target="#slider" data-slide-to="1"></li>
+							<li data-target="#slider" data-slide-to="2"></li>
+						</ol>
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img src="https://www.ecotripschile.com/thumb/1200x400/media/ISLA%20DE%20PASCUA/easter-island-chile.jpg" alt="slide 1" class="d-block img-fluid">
+							</div>
+
+							<div class="carousel-item">
+								<img src="http://www.ckayna.com/wp-content/uploads/2018/04/sitios-madrid-1200x400.jpg" alt="slide 1" class="d-block img-fluid">
+							</div>
+
+							<div class="carousel-item">
+								<img src="http://vicsamexico.com.mx/wp-content/uploads/2017/11/2-1200x400.png" alt="slide 1" class="d-block img-fluid">
+							</div>
+						</div>
+
+						<a href="#slider" class="carousel-control-prev" data-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="sr-only">anterior</span>
+						</a>
+
+						<a href="#slider" class="carousel-control-next" data-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="sr-only">Siguiente</span>
+						</a>
+					</div>
+				</div>		
+			</div>
+		</div>
+	</header>
+
+
 	<main></main>
 	<footer></footer>
 
 	<script src="asset/js/jquery-3.3.1.min.js"></script>
-	<script src="asset/bootstrap-4.1.0/js/bootstrap.js"></script>
+	<script src="asset/js/bootstrap.js"></script>
 	<script src="asset/js/script.js"></script>
 </body>
 </html>
